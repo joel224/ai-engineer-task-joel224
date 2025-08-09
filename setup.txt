@@ -1,0 +1,13 @@
+docker run -d -p 8000:8000 \
+  -e GOOGLE_API_KEY="your_google_api_key_here" \
+  -e API_KEY="your_secret_api_key" \
+  -v "C:\Users\EliteBook\Downloads\AI Data Science Trainer Test (2).pdf:/data/document.pdf:ro" \
+  --name my-rag-agent \
+  rag-agent-api
+
+  -v: Mounts your local PDF file into the /data directory inside the container
+  please specify file path 
+
+  make sure you use :ro at the end of the volume mount makes the file read-only inside the container,
+which is a good security practice.
+The -d flag runs the container in detached mode (in the background).
