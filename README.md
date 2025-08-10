@@ -70,4 +70,4 @@ Finally, it zips up all the new, commented documents into a single .zip file for
 
 Display Results: The web interface shows you a summary of the findings, a detailed report, and the link to download the .zip file. The process is complete.
 
-Remember :a donloadable zip is provided , only if our agent has enough resources to prepare the findings and a detailed report .
+Remember : a donloadable zip is provided , only if our agent has enough resources to prepare the findings and a detailed report .
